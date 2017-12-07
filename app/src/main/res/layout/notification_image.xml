@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bai"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_24.0">
+        <TextView
+            android:background="@color/bai"
+            android:gravity="center"
+            android:textColor="@color/c_2b2b2b"
+            android:textSize="@dimen/dip_10.0"
+            android:text="@string/main_gl5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_24.0">
+        </TextView>
+
+        <TextView
+            android:id="@+id/r_a_qx"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_dialog_cancel"
+            android:textColor="@drawable/raz2"
+            android:textSize="@dimen/dip_10.0"
+            android:layout_marginRight="@dimen/dip_5.0"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fu_bg"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/notification_fragmet_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

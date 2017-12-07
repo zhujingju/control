@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/video_player_Rel"
+        >
+        <com.ezvizuikit.open.EZUIPlayer
+            android:id="@+id/video_player_ui"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF000000"
+            />
+
+        <SurfaceView
+            android:visibility="gone"
+            android:id="@+id/realplay_sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#000000" />
+
+        <ImageView
+            android:id="@+id/video_layout_bf"
+            android:layout_width="@dimen/dip_20.0"
+            android:layout_height="@dimen/dip_20.0"
+            android:layout_centerInParent="true"
+            android:background="@drawable/monitormode_refresh"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/video_layout_add"
+            android:layout_width="@dimen/dip_20.0"
+            android:layout_height="@dimen/dip_20.0"
+            android:layout_centerInParent="true"
+            android:background="@drawable/monitormode_addto"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/layout2_rel_kz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:visibility="gone"
+                android:src="@drawable/monitormode_icon_up_normal"
+                android:id="@+id/layout2_up"
+                android:layout_centerHorizontal="true"
+                android:layout_width="@dimen/dip_18.0"
+                android:layout_height="@dimen/dip_18.0"
+                android:layout_marginTop="@dimen/dip_7.5"
+                />
+
+            <ImageView
+                android:visibility="gone"
+                android:src="@drawable/monitormode_icon_down_normal"
+                android:id="@+id/layout2_down"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="@dimen/dip_18.0"
+                android:layout_height="@dimen/dip_18.0"
+                android:layout_marginBottom="@dimen/dip_7.5"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:src="@drawable/monitormode_icon_left_normal"
+                android:layout_centerVertical="true"
+                android:id="@+id/layout2_left"
+                android:layout_width="@dimen/dip_18.0"
+                android:layout_height="@dimen/dip_18.0"
+                android:layout_marginLeft="@dimen/dip_7.5" />
+
+            <ImageView
+                android:visibility="gone"
+                android:src="@drawable/monitormode_icon_right_normal"
+                android:id="@+id/layout2_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="@dimen/dip_18.0"
+                android:layout_height="@dimen/dip_18.0"
+                android:layout_marginRight="@dimen/dip_7.5" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

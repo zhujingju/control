@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dip_100.0"
+    android:background="@drawable/preview_selection_bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="6dp" 
+    android:paddingTop="9dp" >
+
+    <Button
+        android:id="@+id/quality_hd_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dip_4.0"
+        android:text="@string/quality_hd"
+        android:textColor="@color/bai"
+        android:textSize="20sp"
+        android:background="@null" />
+
+    <Button
+        android:id="@+id/quality_jh_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dip_4.0"
+        android:text="@string/quality_balanced"
+        android:textColor="@color/bai"
+        android:textSize="20sp"
+        android:background="@null" />
+    <Button
+        android:id="@+id/quality_balanced_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dip_4.0"
+        android:text="@string/quality_flunet"
+        android:textColor="@color/bai"
+        android:textSize="20sp"
+        android:background="@null" />
+    
+</LinearLayout>

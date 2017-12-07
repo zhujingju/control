@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/c_f0f0f0"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/id_mapLayoutBottomBar">
+
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/c_f0f0f0">
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:text="地图"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="@dimen/dip_30.0"-->
+
+                <!--/>-->
+            <!--&lt;!&ndash; 地图 &ndash;&gt;-->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- 手柄 距离底部：72+30, 背景图片h=72 // 172px-->
+                <org.ros.android.view.visualization.VisualizationView
+                    android:id="@+id/id_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.map.VirtualJoystick_extends
+                    android:id="@+id/id_joystick"
+                    android:layout_width="@dimen/d_width_Joystick"
+                    android:layout_height="@dimen/d_height_Joystick"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginBottom="102px"
+                    android:layout_gravity="left|bottom"
+                    />
+                <!-- 弹出框的位置 -->
+                <!-- 地图：构建地图弹出框 -->
+                <include layout="@layout/layout_map_makemap"
+                         android:id="@+id/id_layout_map_makemap"
+                    android:visibility="gone"/>
+                <!-- 标记弹出框 -->
+                 <include layout="@layout/layout_map_sign"
+                          android:id="@+id/id_layout_map_sign"
+                     android:visibility="gone"/>
+                <!-- 地图：路径弹出框 -->
+                <include layout="@layout/layout_map_route"
+                         android:id="@+id/id_layout_map_route"
+                         android:visibility="gone"/>
+
+
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <!-- 底部按钮条，希望连不上的时候可以刷新 -->
+    <LinearLayout
+        android:id="@+id/id_mapLayoutBottomBar"
+        android:background="@drawable/toolbar_bg"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_18.0"
+        android:gravity="center">
+
+        <!--android:id="@+id/id_mapBottomBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/dip_18.0"-->
+        <!--android:background="@drawable/toolbar_bg"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_gravity="center_horizontal|bottom"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:visibility="visible"-->
+
+        <ImageView
+            android:id="@+id/id_mapEstablish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_establish_normal"
+            />
+
+        <ImageView
+            android:id="@+id/id_mapNavigation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_navigation_normal"
+            />
+
+        <ImageView
+            android:id="@+id/id_mapSign"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_sign_normal"
+            />
+
+        <ImageView
+            android:id="@+id/id_mapFollow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_follow_normal"
+            />
+
+        <ImageView
+            android:id="@+id/id_mapStartingpoint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_startingpoint_normal"
+            />
+
+        <ImageView
+            android:id="@+id/id_mapArrivepoint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_arrivalpoint_normal"
+            />
+
+        <ImageView
+            android:id="@+id/id_mapRoute"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_route_normal"
+            />
+
+        <ImageView
+            android:id="@+id/id_mapRefresh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/map_refresh"
+            />
+        <!--默认手柄是显示的-->
+        <ImageView
+            android:id="@+id/id_mapTeleop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/toolbar_mapmode_nothing_selected"
+            />
+        <!--android:src="@drawable/map_nothing"-->
+
+    </LinearLayout>
+    <!-- 地图：连接wifi或连接ros时出问题 -->
+    <TextView
+        android:id="@+id/id_mapConnectError"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="无法连接到wifi？无法连接到ros？"
+        android:textSize="30px"
+        android:gravity="center"
+        android:background="@drawable/map_shape_diagbg"
+        android:alpha="0.9"
+        android:visibility="gone"
+        />
+    <!--<include layout="@layout/layout_map_connerror"-->
+             <!--android:id="@+id/id_layout_map_connerror"-->
+             <!--android:visibility="visible"/>-->
+
+
+    <!-- 进度条 。Android:alpha="0.0"那看不见的Android:alpha="0.5"透视Android:alpha="1.0"全可见 -->
+    <RelativeLayout
+        android:id="@+id/rl_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:alpha="0.9"
+        android:background="@drawable/map_shape_diagbg"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/id_progressDialogView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            style="@android:style/Widget.ProgressBar.Large"
+            android:background="#00000000"
+            />
+        <!--android:indeterminateDrawable="@drawable/progress_circle_indeterminate"-->
+        <!--android:layout_width="@dimen/d_width_progressBarCircle"-->
+        <!--android:layout_height="@dimen/d_height_progressBarCircle"-->
+        <!--android:maxWidth="@dimen/d_width_progressBarCircle"-->
+        <!--android:maxHeight="@dimen/d_height_progressBarCircle"-->
+        <!--android:minWidth="@dimen/d_width_progressBarCircle"-->
+        <!--android:minHeight="@dimen/d_height_progressBarCircle"-->
+    </RelativeLayout>
+</RelativeLayout>

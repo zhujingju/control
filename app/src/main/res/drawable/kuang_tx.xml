@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--填充颜色，这里为透明色-->
+    <solid android:color="#0000"/>
+    <!--圆角-->
+    <corners android:radius="50dp"/>
+    <!--描边，这里为白色，半径8dp-->
+    <stroke
+        android:width="3dp"
+        android:color="#fff"/>
+</shape>

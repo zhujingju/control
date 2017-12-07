@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\debug\\layout\\nfc_tag_scan.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\src\\main\\res\\layout\\nfc_tag_scan.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\debug\\layout\\default_dashboard.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\src\\main\\res\\layout\\default_dashboard.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\debug\\layout\\master_chooser.xml",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\default\\res\\layout\\master_chooser.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\debug\\layout\\zeroconf_master_item.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\src\\main\\res\\layout\\zeroconf_master_item.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\debug\\layout\\zeroconf_master_list.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\src\\main\\res\\layout\\zeroconf_master_list.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\src\\main\\res\\layout\\main.xml"
+    }
+]

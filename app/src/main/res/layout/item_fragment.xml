@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ff"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_140.0"
+        android:background="#000"
+        >
+        <com.ezvizuikit.open.EZUIPlayer
+            android:id="@+id/item_player_ui"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF000000"
+            />
+
+        <ImageView
+            android:id="@+id/item_layout_bf"
+            android:layout_width="@dimen/dip_20.0"
+            android:layout_height="@dimen/dip_20.0"
+            android:layout_centerInParent="true"
+            android:background="@drawable/monitormode_refresh"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/c_555555"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_20.0">
+        <TextView
+            android:id="@+id/look_photo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/bai"
+            android:textSize="@dimen/dip_14.0"
+            android:text="2017-8-10 16:30:40"
+            />
+        <ImageView
+            android:id="@+id/look_photo_back"
+            android:layout_marginRight="@dimen/dip_5.0"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/image_icon_back"
+            android:layout_width="@dimen/dip_20.0"
+            android:layout_height="@dimen/dip_20.0" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/bai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/look_photo_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:persistentDrawingCache="animation"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </android.support.v4.view.ViewPager>
+
+    </RelativeLayout>
+
+</LinearLayout>

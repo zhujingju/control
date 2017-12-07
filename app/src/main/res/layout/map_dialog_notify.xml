@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/id_abLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/c_dialogBG"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_dialogMessage"
+        android:layout_x="@dimen/d_x_dialogEt"
+        android:layout_y="@dimen/d_y_dialogEt"
+        android:gravity="center"
+        android:layout_width="@dimen/d_width_dialogEt"
+        android:layout_height="wrap_content"
+        android:textColor="@color/c_dialogEtTextColor"
+        android:text="notify content"
+        />
+    <Button
+        android:id="@+id/id_dialogBtnOK"
+        android:layout_width="@dimen/d_width_dialogBtnOK"
+        android:layout_height="@dimen/d_height_dialogBtnOK"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/s_customNameOK"
+        android:textSize="@dimen/d_textSize_dialogBtn"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        />
+</LinearLayout>
+<!--<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--android:id="@+id/id_abLayout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/c_dialogBG">-->
+      <!--<TextView-->
+        <!--android:id="@+id/id_dialogMessage"-->
+        <!--android:layout_x="@dimen/d_x_dialogEt"-->
+        <!--android:layout_y="@dimen/d_y_dialogEt"-->
+        <!--android:gravity="left|center_vertical"-->
+        <!--android:layout_width="@dimen/d_width_dialogEt"-->
+        <!--android:layout_height="@dimen/d_height_dialogEt"-->
+        <!--android:textColor="@color/c_dialogEtTextColor"-->
+        <!--android:text="sss"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/id_dialogBtnOK"-->
+        <!--android:layout_x="@dimen/d_x_dialogNotifyBtnOK"-->
+        <!--android:layout_y="@dimen/d_y_dialogBtnOK"-->
+        <!--android:layout_width="@dimen/d_width_dialogBtnOK"-->
+        <!--android:layout_height="@dimen/d_height_dialogBtnOK"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/s_customNameOK"-->
+        <!--android:textSize="@dimen/d_textSize_dialogBtn"-->
+        <!--android:background="@drawable/map_dialogbtn"-->
+        <!--android:textColor="@drawable/map_dialogtext"-->
+        <!--/>-->
+<!--</AbsoluteLayout>-->

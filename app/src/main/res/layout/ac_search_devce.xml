@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fxxx="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical" >
+
+   <TextView
+       android:background="@color/bai"
+       android:gravity="center"
+       android:textColor="@color/c_2b2b2b"
+       android:textSize="@dimen/dip_10.0"
+       android:text="@string/sbgl"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/dip_24.0">
+
+
+   </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fu_bg"
+        >
+    <TextView
+        android:layout_marginTop="@dimen/dip_7.5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/c_dfdfdf"
+        />
+    <com.swipemenulistview.SwipeMenuListView
+        android:id="@+id/smlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="#0000"
+        android:background="@color/bai"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_25.0"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/srmm3"
+            android:textSize="@dimen/dip_8.0"
+            android:layout_marginBottom="@dimen/dip_5.0"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dip_5.0"
+            android:textColor="@color/c_aaaaaa"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/c_dfdfdf"
+        />
+    <com.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lvLive"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="#0000"
+        android:background="@drawable/fu_bg"
+         />
+
+    </LinearLayout>
+</LinearLayout>

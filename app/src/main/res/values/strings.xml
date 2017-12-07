@@ -1,0 +1,365 @@
+<resources>
+    <string name="app_name">control</string>
+    <string name="lianwang">请连接网络</string>
+    <string name="jt_err1">截图失败，请在看得到图像的情况下截图</string>
+    <string name="jt_err22">录像失败，请在看得到图像的情况下录像</string>
+    <string name="jt_err33">对讲开启失败，请在看得到图像的情况下开启对讲</string>
+    <string name="jt_err44">调用预置点失败，请在看得到图像的情况下调用预置点</string>
+    <string name="jt_err55">删除预置点失败，请在看得到图像的情况下删除预置点</string>
+    <string name="jt_err66">添加预置点失败，请在看得到图像的情况下添加预置点</string>
+    <string name="jt_err2">截图失败</string>
+    <string name="jt_good">截图成功</string>
+
+    <string name="layout1_dl">电量</string>
+    <string name="layout1_gzsc">工作时长</string>
+    <string name="layout1_qsmj">清扫面积</string>
+    <string name="quality_hd">高清</string>
+    <string name="quality_balanced">均衡</string>
+    <string name="quality_flunet">流畅</string>
+    <string name="AddPresetpoints_good">添加预置点成功</string>
+
+    <string name="AddPresetpoints_err">添加预置点失败</string>
+
+    <string name="DelPresetpoints_good">删除预置点成功</string>
+
+    <string name="DelPresetpoints_err">删除预置点失败</string>
+    <string name="transferPresetpoints_good">调用预置点成功</string>
+
+    <string name="transferPresetpoints_err">调用预置点失败</string>
+    <string name="save">保存</string>
+    <string name="name_err">名字不能为空</string>
+    <string name="kong_err">不能为空</string>
+    <string name="add_ysd">添加预置点中...</string>
+    <string name="del_ysd">删除预置点中...</string>
+    <string name="dy_ysd">调用预置点中...</string>
+    <string name="progress_logining">登录中...</string>
+
+    <string name="name">账号</string>
+    <string name="name2">设备编号</string>
+    <string name="pass">密码</string>
+    <string name="pass2">设备密码</string>
+    <string name="add_main_gl1">添加设备</string>
+    <string name="main_gl1">设备管理</string>
+    <string name="main_gl2">设置</string>
+    <string name="main_gl3">关于我们</string>
+    <string name="main_gl4">当前版本</string>
+    <string name="main_gl5">消息通知</string>
+    <string name="main_gl6">帮助</string>
+
+    <string name="head_xl">下拉刷新</string>
+    <string name="head_xl2">刷新完毕</string>
+    <string name="head_sc">上次更新</string>
+    <string name="head_zz">正在刷新</string>
+    <string name="head_wb">下拉刷新已经加载完毕... </string>
+    <string name="news">最近更新:</string>
+    <string name="news2">松开刷新</string>
+    <string name="news3">载入中...</string>
+    <string name="news4">查看更多</string>
+    <string name="news5">到头了</string>
+    <string name="aaa000">#000000</string>
+
+    <string name="grzx">个人中心</string>
+    <string name="sbgl">设备管理</string>
+    <string name="ybd">该设备已绑定</string>
+    <string name="ybd2">删除成功</string>
+    <string name="srmm">请输入密码：</string>
+    <string name="srmm1">密码错误或网络连接错误或服务器异常</string>
+    <string name="srmm2">添加成功</string>
+    <string name="srmm3">查找机器人...</string>
+    <string name="qt">其他...</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="shuru2">是否删除</string>
+    <string name="progress_per3">删除中...</string>
+    <string name="progress_pergood">删除成功</string>
+    <string name="nodataerro">无数据</string>
+    <string name="searching_device">正在搜索...</string>
+    <string name="searching_device2">添加设备中...</string>
+    <string name="searching_device3">正在登陆</string>
+
+    <string name="szsb">请选择设备</string>
+
+    <string name="gzh">微信公众号：Grasp608</string>
+    <string name="gsm">掌握主动科技（北京）有限公司</string>
+
+    <string name="personal_1">用户ID：</string>
+
+    <string name="personal_2">更改密码</string>
+
+    <string name="personal_3">请输入旧密码：</string>
+    <string name="personal_4">输入新密码：</string>
+    <string name="personal_5">确认旧密码：</string>
+    <string name="personal_6">退出登录</string>
+
+    <string name="xgtx"> 修改头像</string>
+    <string name="pzsc">"   拍张上传"</string>
+    <string name="bdsc">"   本地上传"</string>
+    <string name="nocz">"未找到存储卡，无法存储照片！"</string>
+
+    <!-- 地图 start ************************************************************************************-->
+
+    <!-- 这是固定的主机ip地址 -->
+    <string name="s_uri">http://192.168.31.88:11311</string> <!-- 扫地机：10.42.0.1 大的白机器人：192.168.31.88 -->
+    <!-- 地图相关选择 end -->
+    <string name="s_isDelete">是否删除已存在的地图？不删除则无法构建新地图!</string>
+    <string name="s_isNewMap">是否重新启动构建地图？</string>
+    <string name="s_ok">确定</string>
+    <string name="s_cancel">取消</string>
+    <string name="s_croom">croom</string>
+    <string name="s_saveFailure">保存地图失败，请重新保存</string>
+    <string name="s_Success">成功</string>
+    <string name="s_MapSavingSuccess">地图保存成功!</string>
+    <string name="s_PositionSavingSuccess">保存标记成功!</string>
+
+    <string name="s_Error">错误</string>
+    <string name="s_ErrorToSaveMap">保存地图失败</string>
+    <string name="s_ErrorToDeleteMap">删除地图失败</string>
+    <string name="s_ErrorToDeleteMapFailedToStartMapMake">删除地图失败，无法进入构建地图</string>
+    <string name="s_ErrorToGetAllPositions">获取位置坐标失败</string>
+    <string name="s_ErrorToResetPositiosnOnly">只是清理坐标</string>
+    <string name="s_ErrorToStartMapMake">无法启动构建地图</string>
+    <string name="s_ErrorToNewMap">无法重新构建地图</string>
+    <string name="s_ErrorStopRapp">停止服务失败</string>
+    <string name="s_ErrorToResetAllPositions">清空位置坐标失败</string>
+    <string name="s_ErrorToPublishMap">发布地图失败</string>
+    <string name="s_ErrorToAddPosition">添加坐标失败，坐标有问题!</string>
+    <string name="s_ErrorToAddPositionRepeat">添加坐标失败，两坐标之间必须大于5厘米!</string>
+    <string name="s_ErrorToSavePositions">保存坐标失败</string>
+    <string name="s_ErrorToResetPositions">清空坐标失败</string>
+    <string name="s_Error_GetMapList">获取地图失败</string>
+    <string name="s_Error_PublishMap">发布地图失败</string>
+    <string name="s_Error_PublishMapStopMapNav">发布地图失败，停止地图导航</string>
+    <string name="s_Error_PublishMapDontStartMapMak">获取地图失败，不启动构建地图</string>
+    <string name="s_Error_PublishMapDontStartMapNav">获取地图失败，不启动地图导航</string>
+    <string name="s_Error_StopMapMakeFailedAfterSavedMap">保存地图后，停止构建地图失败</string>
+    <string name="s_Error_OnPauseStopRappFailed">程序暂停时，退出Rapp失败</string>
+    <string name="s_Error_InitRemoconImplementsOldMapNav">初始启动地图导航，没有发布地图，停止地图导航失败</string>
+
+    <string name="s_Error_GetRapp">获取Rapp失败</string>
+    <string name="s_Error_GetRappAgain">请重新获取Rapp，否则将无法启动远程服务</string>
+    <string name="s_Error_StartRapp">启动Rapp失败</string>
+    <string name="s_Error_PleaseInputChinese">请输入中文。</string>
+    <string name="s_Error_InputDontMoreThan4">请输入1~4个字符。</string>
+    <string name="s_Error_startPairedRapp">Failed to start the paired rapp.</string>
+    <string name="s_Error_connectMapMakeOrMapNavBefore">请先打开构建或地图导航(长按打开)，再刷新地图。</string>
+    <string name="s_Error_GettingRappListInfo">获取rapp列表信息时失败：</string>
+    <string name="s_Error_StopFollowerService">停止跟随服务失败。</string>
+    <string name="s_Error_StartFollowerService">开始跟随服务失败。</string>
+    <string name="s_Error_PleaseGotoChargingPile">请先去充电桩，再打开构建地图。</string>
+    <string name="s_Error_PleaseGotoStopMapNavBefore">请先关闭地图导航(长按关闭)，再打开构建地图。</string>
+    <string name="s_Error_PleaseGotoStopMapMakeBefore">请先关闭构建地图(长按关闭)，再打开构建导航。</string>
+    <string name="s_Error_stoppedUnknownRapp">未知Rapp已停止。</string>
+    <string name="s_Error_networkUnavailable">处理超时，可能网络连接已断开</string>
+
+    <string name="s_Error_connRos">连接机器人失败，请确保机器人可连接并刷新!</string>
+    <string name="s_Error_masterParams">机器人参数初始化失败，请确保机器人主机可连接并刷新!</string>
+    <string name="s_Error_connectMaster">请确保机器人主机可连接并刷新!</string>
+    <string name="s_Error_MasterWifiConnFailed">连接机器人wifi失败</string>
+    <string name="s_Error_masterUri">机器人地址错误</string>
+    <string name="s_Error_masterUriNull">机器人地址为空，请先设置机器人ip地址</string>
+    <string name="s_Error_NoWifiConnected">当前没有连接wifi，请设置wifi</string>
+    <string name="s_Error_CannotContactConcert">连接主机ROS失败</string>
+    <string name="s_Error_MasterUnavailable">主机地址不可连接</string>
+
+    <string name="s_Timeout">保存地图超时</string>
+    <string name="s_TimeoutToDeleteMap">删除地图超时</string>
+    <string name="s_TimeoutToGetAllPositions">获取位置坐标超时</string>
+    <string name="s_TimeoutToResetAllPositions">清空位置坐标超时</string>
+    <string name="s_TimeoutToPublishMap">发布地图超时</string>
+    <string name="s_TimeoutToAddPosition">添加位置超时</string>
+    <string name="s_TimeoutToSavePositions">保存位置超时</string>
+    <string name="s_TimeoutToResetPositions">清空坐标超时</string>
+    <string name="s_TimeoutToGetMapList">获取地图超时</string>
+
+    <string name="s_SavingMap">正在保存地图...</string>
+    <string name="s_addingPosition">正在添加位置...</string>
+    <string name="s_savingPosition">正在保存位置...</string>
+    <string name="s_resetingPosition">正在清空坐标...</string>
+    <string name="s_Waiting">请等待</string>
+    <string name="s_WaitingForMapList">正在获取地图列表...</string>
+    <string name="s_WaitingForMap">正在获取地图，请等待...</string>
+    <string name="s_WaitingForPublishMap">正在发布地图，请等待...</string>
+    <string name="s_WaitingForDeleteMap">正在删除地图...</string>
+    <string name="s_WaitingForGetAllPositions">正在获取所有位置坐标...</string>
+    <string name="s_WaitingForResetAllPositions">正在清空所有位置坐标...</string>
+    <string name="s_RefreshingMap">正在刷新地图...</string>
+    <string name="s_noMap">没有地图可加载，请先保存地图!</string>
+
+    <string name="s_comeFromChildApp">从子app图标页，返回主机列表页。</string>
+
+    <string name="s_FailedToconnectMaster">连接主机</string>
+    <string name="s_connectingMaster">正在连接主机...</string>
+    <string name="s_receivingInfo">正在接收信息，可点击屏幕取消...</string>
+
+
+    <!-- rapp 开始和停止 start -->
+    <string name="s_getRappList">getRappList</string>
+    <string name="s_startRapp">startRapp</string>
+    <string name="s_stopRapp">stopRapp</string>
+    <string name="s_getRappSrv">grobot/list_rapps</string>
+    <string name="s_stopRappSrv">grobot/stop_rapp</string>
+    <string name="s_startRappSrv">grobot/start_rapp</string>
+
+    <string name="s_rappName_follower">grobot_rapps/follower</string>
+    <string name="s_rappName_map_nav">grobot_rapps/map_nav</string>
+    <string name="s_rappName_map_manager">grobot_rapps/map_manager</string>
+    <string name="s_rappName_make_a_map">grobot_rapps/make_a_map</string>
+
+    <string name="s_clearingExecute">正在清理数据...</string>
+    <string name="s_connectingRosAgain">正在重新连接ros主机...</string>
+    <string name="s_gettingRapp">正在获取rapp连接信息...</string>
+    <string name="s_startingRapp">正在打开rapp...</string>
+
+    <string name="s_stoppingRapp">正在停止rapp</string>
+    <!--<string name="s_ErrorStopRapp">停止Rapp失败</string>-->
+    <string name="s_ErrorStartRapp">启动Rapp失败</string>
+    <string name="s_ErrorStartMapMake">启动构建地图失败</string>
+    <string name="s_ErrorStartMapNav">启动地图导航失败</string>
+    <string name="s_ErrorPublishMap">发布地图失败</string>
+    <string name="s_ErrorPublishMapWillStopMapNav">发布地图失败，请刷新。</string>
+    <string name="s_Error_initWifiRos">初始化失败，退出。</string>
+
+    <string name="s_TimeoutStopRapp">停止Rapp超时</string>
+    <string name="s_TimeoutStartRapp">启动Rapp超时</string>
+
+    <string name="s_Error_StartMapNavWithoutMap">没有地图，请先构建地图。</string>
+
+    <string name="s_gettingFollowerService">正在获取跟随服务...</string>
+    <string name="s_TimeoutGettingFollowerService">获取跟随服务超时</string>
+    <string name="s_successFollowerServiceFollower">开始跟随</string>
+    <string name="s_failureToFollower">跟随功能启动失败</string>
+    <string name="s_successFollowerServiceStop">停止跟随</string>
+    <string name="s_openMakeMapOrMapNav">请先开启构建地图或地图导航</string>
+
+    <!--<string name="s_ErrorGetRapp">获取Rapp列表失败</string>-->
+    <string name="s_ErrorTimeoutToRos">与机器人连接超时</string>
+    <string name="s_ErrorTimeoutToDeletePosition">删除标记超时</string>
+    <string name="s_ErrorFailedToRos">与机器人连接失败</string>
+    <string name="s_ErrorConnToRosException">连接机器人系统异常。</string>
+    <string name="s_ErrorConnToRosFailed">连接机器人系统失败。</string>
+    <string name="s_ErrorNoFollowService">服务请求失败，机器人没有开启跟随服务。</string>
+    <string name="s_ErrorConnToRosTimeout">连接超时，请重新操作。</string>
+    <string name="s_ErrorFailedToModifyPositions">修改标记失败</string>
+    <string name="s_ErrorFailedToDeletePositions">删除标记失败</string>
+    <string name="s_ErrorExceptionToDeletePositions">删除标记异常</string>
+    <string name="s_ErrorToRos">与机器人连接错误</string>
+    <string name="s_TimeoutGetRapp">获取Rapp列表超时</string>
+    <string name="s_noRunningRapp">没有正在运行的rapp，退出!</string>
+    <string name="s_noRunningRappCouldStartAllRapp">没有正在运行的rapp，可以启动任何一个Rapp!</string>
+    <string name="s_existAlreadyPairingRapp">存在已配对的Rapp</string>
+
+    <string name="s_SuccessStopRapp">停止Rapp成功</string>
+    <string name="s_StopRappSuccess">停止Rapp成功!</string>
+    <string name="s_StopRappFailureWaitRestartRemocon">停止Rapp失败，待重启remocon!</string>
+
+    <string name="s_actionForceShutDown">forceShutDown</string>
+    <string name="s_actionBackToRemocon">backToRemocon</string>
+    <string name="s_actionChangeRapp">changeRapp</string>
+
+    <string name="s_actionLoadMap">loadMap</string>
+    <string name="s_actionRequestMakeAMapRapp">RequestMakeAMapRapp</string>
+
+    <string name="s_actionInitRemocon">InitRemocon</string>
+    <string name="s_actionStopRappOnly">stopRappOnly</string>
+    <!-- rapp 开始和停止 end -->
+
+    <string name="s_functionName_SaveMap">SaveMap</string>
+    <string name="s_functionName_AddPosition">AddPosition</string>
+    <string name="s_functionName_ModifyPosition">ModifyPosition</string>
+    <string name="s_functionName_DeletePosition">DeletePosition</string>
+    <string name="s_functionName_SavePositions">SavePositions</string>
+    <string name="s_functionName_ResetAllPositions">ResetAllPositions</string>
+    <string name="s_functionName_GetAllPositions">GetAllPositions</string>
+    <string name="s_functionName_ResetDatabase">ResetDatabase</string>
+
+    <string name="s_functionName_follower">follower</string>
+
+    <!--<string name="s_followerSrv">change_state</string>-->
+    <string name="s_followerSrv">turtlebot_follower/change_state</string>
+
+    <string name="s_back">返回</string>
+    <string name="s_menTing">门厅</string>
+    <string name="s_huiYiTing">会议厅</string>
+    <string name="s_qianTing">前厅</string>
+    <string name="s_banGongQu">办公区</string>
+    <!--<string name="s_toilet">卫生间</string>-->
+
+    <string name="s_positionExists">该位置已存在，不可再次标记</string>
+
+    <string name="s_customPositions">自定义名称</string>
+    <string name="s_customNameInputHint">请输入自定义名称</string>
+    <string name="s_hintOldFlagName">原标记名称</string>
+    <string name="s_hintNewFlagName">请输入新名称</string>
+    <string name="s_customNameDelete">删除</string>
+    <string name="s_customNameModify">改名</string>
+    <string name="s_customNameOK">确定</string>
+    <string name="s_customNameCancel">取消</string>
+
+    <string name="s_invalidFollower">app的远程跟随功能未打开，请先打开此功能!</string>
+    <string name="s_invalidMapMake">app的远程构建地图功能未打开，请先长按地图按钮打开此功能!</string>
+    <string name="s_invalidMapNav">app的远程地图导航功能未打开，请先长按导航按打开此功能!</string>
+
+    <string name="s_backChargePile">要重新构建地图，请先回到充电桩!</string>
+
+    <string name="s_ConnectingMaster">正在连接主机...</string>
+    <string name="s_RequestingMasterRapp">正在请求打开远程控制服务</string>
+    <string name="s_addPositionSuccess">添加标记成功</string>
+    <string name="s_modifyPositionSuccess">修改标记成功</string>
+    <string name="s_deletePositionSuccess">删除标记成功</string>
+    <string name="s_customPositionDisplayNext">，自定义名称将在下次启动地图时显示</string>
+    <string name="s_connMasterSuccess">连接主机成功，将跳转到地图主页面!</string>
+    <string name="s_connMasterFailed">连接主机失败，请检查机器人状态!</string>
+    <string name="s_locationInitial">已切换到初始定位</string>
+    <string name="s_locationGoal">已切换到目标定位</string>
+
+    <string name="s_initialingNotAddPosition">正在初始化，请稍候添加标记...</string>
+
+    <string name="s_getRobotPosition">getRobotPosition</string>
+    <string name="s_setEdit">长按：编辑标记</string>
+    <string name="s_setGoalPose">长按：去目的地</string>
+    <string name="s_setInitialPose">长按：校准位置</string>
+    <string name="s_startRappBefore">要用此按钮，请先开启构建地图或地图导航。</string>
+    <string name="s_addPositionBeforeSave">未保存标记，请先添加标记。</string>
+    <string name="s_startMakeAMapBefore">要用此按钮，请先开启构建地图。</string>
+    <string name="s_startMapNavBefore">要用此按钮，请先开启地图导航。</string>
+    <string name="s_TimoutToRefresh">刷新超时。</string>
+    <string name="s_TimoutToCloseRos">关闭连接超时，如果影响了当前操作，请重新关闭地图。</string>
+    <string name="s_TimoutToWaitforMap">接收地图超时，请重新操作。</string>
+
+    <string name="s_TeleopUninit">手柄尚未初始化，请刷新。</string>
+    <string name="s_RosUninit">数据尚未初始化，请刷新。</string>
+
+    <string name="s_canceled">已取消</string>
+
+    <string name="map_frame">map</string>
+    <string name="robot_frame">base_link</string>
+    <string name="s_mapRobotLayer">base_link</string>
+    <string name="s_mapLaserScanLayer">scan</string>
+    <string name="s_mapPoseSubscriberLayer">move_base_simple/goal</string><!--去往目的地-->
+    <string name="joystick_topic">cmd_vel_mux/input/teleop</string>
+    <string name="s_functionName_list">list</string>
+    <string name="s_functionName_publish">publish</string>
+    <string name="s_functionName_delete">delete</string>
+    <string name="s_CNMake_A_Map">构建地图</string>
+    <string name="s_CNMap_Navigation">地图导航</string>
+    <string name="initial_pose_topic">initialpose</string>
+    <string name="simple_goal_topic">move_base_simple/goal</string>
+    <string name="move_base_goal_topic">move_base/goal</string>
+    <string name="list_maps_srv">list_maps</string>
+    <string name="delete_maps_srv">delete_map</string>
+    <string name="publish_map_srv">publish_map</string>
+    <string name="s_topicName_grobotgoal">grobotgoal</string><!-- stop_navi_ -->
+    <string name="save_map_srv">save_map</string>
+    <string name="addPosition_srv">add_position</string>
+    <string name="s_modifyPosition_srv">modify_position</string>
+    <string name="s_deletePosition_srv">delete_position</string>
+    <string name="savePositions_srv">save_positions</string>
+    <string name="resetPositions_srv">reset_all_position</string>
+    <string name="getPositions_srv">get_all_position</string>
+    <string name="resetDatabase_srv">reset_database</string>
+    <string name="default_robot"></string>
+    <string name="default_app_follower">turtlebot_core_apps/follower</string>
+
+    <string name="s_waitForAddFunction">尚未添加功能</string>
+    <!-- 地图 end ************************************************************************************-->
+</resources>

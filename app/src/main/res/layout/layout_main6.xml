@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_f0f0f0"
+    android:id="@+id/main6_frame"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="@color/c_555555"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_20.0">
+            <ImageView
+                android:id="@+id/layout6_qx"
+                android:background="@drawable/image_icon_cancel"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dip_2.5"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/dip_20.0"
+                android:layout_height="@dimen/dip_20.0" />
+
+            <ImageView
+                android:id="@+id/layout6_meu"
+                android:background="@drawable/image_icon_patternb"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dip_22.5"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/dip_20.0"
+                android:layout_height="@dimen/dip_20.0" />
+
+        </RelativeLayout>
+
+        <com.grasp.control.view.MyListview
+            android:scrollbars="none"
+            android:cacheColorHint="#00000000"
+            android:divider="#0000"
+            android:id="@+id/layout6_listview"
+            android:layout_marginTop="@dimen/dip_20.0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.grasp.control.view.MyListview>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/layout6_del"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dip_5.0"
+            android:background="@drawable/image_icon_delete"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0" />
+    </RelativeLayout>
+
+</FrameLayout>

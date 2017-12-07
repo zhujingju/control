@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/dip_50.0"
+    android:layout_height="@dimen/dip_40.0"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="@dimen/dip_50.0"
+        android:layout_height="@dimen/dip_40.0"
+        android:paddingBottom="@dimen/dip_1.5"
+        android:paddingTop="@dimen/dip_1.5"
+        android:paddingLeft="@dimen/dip_1.5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:id="@+id/item_h_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@color/c_aaaaaa"
+                android:id="@+id/item_h_im"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <RelativeLayout
+                android:layout_alignParentBottom="true"
+                android:background="@color/c_555555"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_7.5">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:id="@+id/item_h_tv"
+                    android:gravity="center"
+                    android:text="ggg"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/bai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+
+            <ImageView
+                android:id="@+id/item_h_del"
+                android:layout_width="@dimen/dip_13.5"
+                android:layout_height="@dimen/dip_13.5"
+                android:background="@drawable/image_icon_mdelete"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+
+
+
+        <ImageView
+            android:layout_marginRight="@dimen/dip_1.5"
+            android:visibility="gone"
+            android:id="@+id/item_h_add"
+            android:background="@drawable/toolbar_monitormode_point_new"
+            android:layout_width="@dimen/dip_50.0"
+            android:layout_height="@dimen/dip_40.0" />
+    </RelativeLayout>
+
+</RelativeLayout>

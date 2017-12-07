@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\stale.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\debug\\res\\drawable\\stale.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\warn.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\debug\\res\\drawable\\warn.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ok.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\debug\\res\\drawable\\ok.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\error.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\debug\\res\\drawable\\error.png"
+    }
+]

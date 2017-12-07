@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!-- 这里的转动只是换图片，而不是左右移动，需要多张图片连续的时候组成左右移动的效果。-->
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_a"/>
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_b"/>
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_c"/>
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_d"/>
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_e"/>
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_f"/>
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_g"/>
+    <item android:duration="70" android:drawable="@mipmap/spinner_inner_h"/>
+    <!--<item android:duration="50">-->
+        <!--<clip-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/spinner_48_inner_holo"-->
+            <!--android:gravity="left" >-->
+        <!--</clip>-->
+    <!--</item>-->
+    <!--<item android:duration="50">-->
+        <!--<clip-->
+            <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/spinner_48_outer_holo"-->
+            <!--android:gravity="left" >-->
+        <!--</clip>-->
+    <!--</item>-->
+</animation-list>

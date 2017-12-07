@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="196dip"
+              android:layout_height="@dimen/dip_18.0"
+              android:background="@drawable/toolbar_bg"
+              android:orientation="horizontal"
+              android:layout_gravity="left|bottom"
+              android:gravity="left"
+              android:layout_alignParentBottom="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true">
+    <!-- 地图：构建地图弹出框 96*2=169的总宽度 -->
+    <!-- 新建地图 -->
+    <ImageView
+        android:id="@+id/id_newMap"
+        style="@style/st_popup"
+        android:src="@drawable/map_newmap"
+        />
+    <!-- 保存地图和标记-->
+    <ImageView
+        android:id="@+id/id_saveMap"
+        style="@style/st_popup"
+        android:src="@drawable/map_savemap"
+        />
+</LinearLayout>

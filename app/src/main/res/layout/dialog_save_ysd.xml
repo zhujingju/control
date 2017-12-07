@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <ImageView
+            android:id="@+id/dialog_save_ysd_bj"
+            android:background="@color/c_000000"
+            android:alpha="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="@dimen/dip_150.0"
+            android:layout_height="@dimen/dip_100.0">
+            <ImageView
+                android:id="@+id/dialog_save_ysd_im"
+                android:background="@color/c_000000"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_80.0" />
+            <LinearLayout
+                android:background="@color/c_aaaaaa"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/dialog_save_ysd_edit"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dip_2.0"
+                    android:paddingRight="@dimen/dip_2.0"
+                    android:singleLine="true"
+                    android:textColor="@color/c_000000"
+                    android:textSize="20sp"
+                    android:layout_margin="@dimen/dip_2.0"
+                    android:background="@drawable/kuang4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/dialog_save_ysd_save"
+                    android:textColor="@color/bai"
+                    android:textSize="20sp"
+                    android:text="@string/save"
+                    android:layout_marginTop="@dimen/dip_2.0"
+                    android:layout_marginBottom="@dimen/dip_2.0"
+                    android:layout_marginRight="@dimen/dip_2.0"
+                    android:background="@drawable/kuang_blue"
+                    android:layout_width="@dimen/dip_35.0"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</LinearLayout>

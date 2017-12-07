@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:background="@color/bai"
+        android:gravity="center"
+        android:textColor="@color/c_2b2b2b"
+        android:textSize="@dimen/dip_10.0"
+        android:text="@string/main_gl2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_24.0">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fu_bg"
+        >
+        <TextView
+            android:layout_marginTop="@dimen/dip_7.5"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/c_dfdfdf"
+            />
+
+
+        <RelativeLayout
+            android:background="@drawable/bai"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_25.0">
+            <RelativeLayout
+                android:background="@drawable/take_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+            <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/ybd_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dip_10.0"
+                android:textColor="@color/c_000000"
+                android:textSize="@dimen/dip_10.0"
+                android:text="@string/main_gl5"
+                />
+
+            <Button
+                android:layout_marginRight="@dimen/dip_10.0"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/autologin_on"
+                android:id="@+id/set_up_xx"
+                android:layout_centerVertical="true"
+                android:layout_width="@dimen/dip_40.0"
+                android:layout_height="@dimen/dip_15.0" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/c_dfdfdf"
+            ></TextView>
+
+    </LinearLayout>
+</LinearLayout>

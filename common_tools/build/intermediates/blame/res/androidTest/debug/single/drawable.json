@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\warn.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\default\\res\\drawable\\warn.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\stale.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\default\\res\\drawable\\stale.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ok.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\default\\res\\drawable\\ok.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\error.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\default\\res\\drawable\\error.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ros_master.png",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\bundles\\debug\\res\\drawable\\ros_master.png"
+    }
+]

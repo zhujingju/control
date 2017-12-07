@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tabbar_signin_bg"
+    android:id="@+id/login_rel"
+    >
+    <EditText
+        android:editable="false"
+        android:singleLine="true"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:text="Grasp"
+        android:textColor="@color/c_000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="@dimen/dip_196.0"
+        android:layout_marginTop="@dimen/dip_192.0"
+        android:layout_width="@dimen/dip_105.0"
+        android:layout_height="@dimen/dip_12.0" />
+
+    <EditText
+        android:id="@+id/login_pass"
+        android:singleLine="true"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:textColor="@color/c_000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="@dimen/dip_196.0"
+        android:layout_marginTop="@dimen/dip_209.0"
+        android:layout_width="@dimen/dip_105.0"
+        android:layout_height="@dimen/dip_12.0"
+        android:text="123456"/>
+    
+    <Button
+        android:layout_marginTop="@dimen/dip_235.0"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tabbar_signin_come"
+        android:id="@+id/login_sign"
+        android:layout_width="@dimen/dip_80.0"
+        android:layout_height="@dimen/dip_16.0" />
+</RelativeLayout>

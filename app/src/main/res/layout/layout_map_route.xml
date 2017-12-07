@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="96dip"
+              android:layout_height="@dimen/dip_18.0"
+              android:background="@drawable/toolbar_bg"
+              android:orientation="horizontal"
+              android:layout_gravity="left|bottom"
+              android:gravity="left"
+              android:layout_alignParentBottom="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true">
+    <!-- 地图：路径弹出框 -->
+    <ImageView
+        android:id="@+id/id_mapAddRoute"
+        style="@style/st_popup"
+        android:src="@drawable/map_newmap"/>
+</LinearLayout>

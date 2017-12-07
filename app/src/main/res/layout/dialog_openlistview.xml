@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/dialog_openlistview_bj"
+            android:background="@color/c_000000"
+            android:alpha="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RelativeLayout
+            android:background="@color/bai"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/dip_150.0"
+            android:layout_height="@dimen/dip_100.0">
+            <TextView
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="@string/szsb"
+                android:textColor="@color/c_000000"
+                android:textSize="@dimen/dip_10.0"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dip_20.0" />
+            <ListView
+                android:background="@drawable/fu_bg"
+                android:id="@+id/dialog_openlistview_listview"
+                android:cacheColorHint="#00000000"
+                android:divider="#0000"
+                android:layout_marginTop="@dimen/dip_20.0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

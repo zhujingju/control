@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="672dip"
+              android:layout_height="@dimen/dip_18.0"
+              android:background="@drawable/toolbar_bg"
+              android:orientation="horizontal"
+              android:layout_gravity="left|bottom"
+              android:gravity="left"
+              android:layout_alignParentBottom="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true">
+    <!-- 地图：标记弹出框 -->
+
+    <ImageView
+        android:id="@+id/id_menTing"
+        style="@style/st_popup"
+        android:src="@mipmap/btn_map_gjdt_m"
+        />
+
+    <ImageView
+        android:id="@+id/id_qianTing"
+        style="@style/st_popup"
+        android:src="@mipmap/btn_map_gjdt_kt"/>
+
+    <ImageView
+        android:id="@+id/id_huiYiTing"
+        style="@style/st_popup"
+        android:src="@mipmap/btn_map_gjdt_ws"/>
+
+    <ImageView
+        android:id="@+id/id_banGongQu"
+        style="@style/st_popup"
+        android:src="@mipmap/btn_map_gjdt_cf"/>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/id_toilet"-->
+        <!--style="@style/st_popup"-->
+        <!--android:src="@mipmap/btn_map_gjdt_wsj"/>-->
+
+    <ImageView
+        android:id="@+id/id_customName"
+        style="@style/st_popup"
+        android:src="@mipmap/btn_map_gjdt_zdy"/>
+    <!--&lt;!&ndash; 编辑 &ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/id_editFlag"-->
+        <!--style="@style/st_popup"-->
+        <!--android:src="@drawable/remo_editflagoff"/>-->
+
+    <!-- 保存标记 -->
+    <ImageView
+        android:id="@+id/id_saveFlag"
+        style="@style/st_popup"
+        android:src="@drawable/map_savemap"/>
+
+
+</LinearLayout>

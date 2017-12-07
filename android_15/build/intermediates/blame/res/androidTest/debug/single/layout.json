@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\virtual_joystick.xml",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\layout\\virtual_joystick.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\master_chooser.xml",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\default\\res\\layout\\master_chooser.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pan_tilt.xml",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\layout\\pan_tilt.xml"
+    }
+]

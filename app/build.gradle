@@ -1,0 +1,155 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+android {
+    // 小朱版本号 start
+//    compileSdkVersion 25
+//    buildToolsVersion "25.0.2" // 小朱原来用的
+//    defaultConfig {
+//        applicationId "com.grasp.control"
+//        minSdkVersion 15
+//        targetSdkVersion 22
+//        versionCode 1
+//        versionName "1.0"
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//        ndk {
+//            abiFilters "armeabi-v7a"
+//        }
+//    }
+    // 小朱版本号 end
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.grasp.control"
+        minSdkVersion 16 // 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a","armeabi"
+        }
+    }
+
+    //小朱 start
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    //小朱 end
+
+
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+    }
+
+    /** 解决错误 start Error:Execution failed for task ':app:transformClassesWithDexForDebug'.
+        > com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command 'F:\Program Files (x86)\Java\jdk1.8.0_31\bin\java.exe'' finished withnon-zero exit value 2
+     */
+    defaultConfig {
+        multiDexEnabled true
+    }
+    // 解决错误 start
+
+
+    //  release
+    signingConfigs {
+        config {
+            keyAlias 'key'
+            keyPassword '62633969'
+            storeFile file('../keystory/mykey.jks')
+            storePassword '62633969'
+        }
+    }
+    /*是禁用资源类型检测，这样在打包过程中就不会因为资源类型不匹配而提示错误了*/
+    lintOptions {
+        disable "ResourceType"
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    //指定打包后应用名称  
+    applicationVariants.all{variant->
+        variant.outputs.each{output->
+            def outputFile=output.outputFile
+            def fileName
+            if(outputFile != null && outputFile.name.endsWith('.apk')){
+                if (variant.buildType.name.equals('release')) {
+                    fileName = "Control.apk"
+                } else if (variant.buildType.name.equals('debug')) {
+                    fileName = "Control.apk"
+                }
+                output.outputFile=new File(outputFile.parent, fileName)
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            debuggable true
+        }
+        release {
+            //   minifyEnabled true //混淆打包
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            debuggable false
+        }
+    }
+}
+
+dependencies {
+//    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.google.code.findbugs'
+        // 解决Conflict with dependency 'com.google.code.findbugs:jsr305'. Resolved versions for app (1.3.9) and test app (2.0.1) differ.
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+//    compile ('com.android.support:appcompat-v7:25.1.1'){
+//        exclude module: 'support-v4'
+//    }
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+        testCompile 'junit:junit:4.12'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile files('libs/EZOpenSDK_V4.5.0.20170605.jar')
+//    compile files('libs/gson-2.7.jar')
+    compile 'com.google.code.gson:gson:2.8.1'
+//    compile files('libs/jmdns-3.4.1.jar') // rosjava相关
+//    javax/jmdns/jmdns/
+//            compile 'javax.jmdns:jmdns:3.4.1' // 和remocon里面的重复了，应注释掉。
+        compile files('libs/zxing.jar')
+    //    compile 'com.android.suppo rt:appcompat-v7:25.1.1'
+
+    //    compile files('libs/EZUIKit_1.1.0.jar')
+
+//    compile files('libs/universal-image-loader-1.9.5.jar')
+//    compile files('libs/universal-image-loader-1.9.5-sources.jar')
+//    compile files('libs/universal-image-loader-1.9.5-javadoc.jar')
+	compile files('libs/EZOpenSDK_V4.5.1.20170721.jar')
+//    com/nostra13/universalimageloader/universal-image-loader/1.9.5/
+
+            compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5' // 网络不好的时候可能找不到，这是maven仓库里的。
+   compile files('libs/litepal-1.6.0-src.jar')
+    compile files('libs/WebSocket.jar')
+    compile files('libs/NewLivePlayer-new.jar')
+    compile files('libs/SmartLink.jar')
+        compile files('libs/fastjson-1.1.43.android.jar')
+    compile project(':DatePicker')
+    // remocon start
+    compile project(':android_10')
+        compile project(':common_tools') // 此工程包会和小朱原有的冲突 此句注销时，只有一个jsr305的jar包，1.3.9版本
+        compile project(':android_15')
+        compile 'org.ros.rosjava_messages:map_store:[0.3,0.4)'
+        compile 'org.ros.rosjava_messages:world_canvas_msgs:[0.1,0.2)'
+        compile 'org.ros.rosjava_messages:move_base_msgs:[1.12,1.13)'
+        compile 'org.ros.rosjava_messages:turtlebot_msgs:2.2.+'
+    compile files('libs/grobot_msgs-0.1.0.jar')
+    // remocon end
+}

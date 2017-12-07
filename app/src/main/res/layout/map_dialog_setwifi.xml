@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:orientation="vertical"-->
+<!--android:id="@+id/id_dialogRootLayout"-->
+<!--android:layout_width="@dimen/d_width_dialogRoot"-->
+<!--android:layout_height="@dimen/d_height_dialogRoot"-->
+<!--android:background="@color/c_dialogBG">-->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/id_abLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/c_dialogBG">
+    <EditText
+        android:id="@+id/id_dialogWifi"
+        android:layout_x="@dimen/d_x_dialogOldName"
+        android:layout_y="@dimen/d_y_setWifi_ssid"
+        android:layout_width="@dimen/d_width_dialogEt"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center_vertical"
+        android:hint="Xiaomi_iotbroad_5G"
+        android:textColorHint="@color/c_dialogEtHintColor"
+        android:textColor="@color/c_dialogEtTextColor"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:background="@null"
+        />
+    <EditText
+        android:id="@+id/id_dialogPWD"
+        android:layout_x="@dimen/d_x_dialogNewName"
+        android:layout_y="@dimen/d_y_setWifi_pwd"
+        android:layout_width="@dimen/d_width_dialogEt"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center_vertical"
+        android:hint="broad608"
+        android:textColorHint="@color/c_dialogEtHintColor"
+        android:textColor="@color/c_dialogEtTextColor"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:background="@null"
+        />
+
+    <!-- ok -->
+    <Button
+        android:id="@+id/id_dialogBtnOK"
+
+        android:layout_x="2px"
+        android:layout_y="@dimen/d_y_setWifi_ok"
+        android:layout_width="210px"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center"
+        android:text="确定"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        android:textSize="28px"
+        />
+
+    <Button
+        android:id="@+id/id_dialogBtnCancel"
+
+        android:layout_x="220px"
+        android:layout_y="@dimen/d_y_setWifi_cancel"
+        android:layout_width="210px"
+
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:background="@drawable/map_dialogbtn"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@drawable/map_dialogtext"
+        android:textSize="28px"
+        />
+    <!-- 00 -->
+    <Button
+        android:id="@+id/id_dialogBtn00"
+        android:layout_x="2px"
+        android:layout_y="@dimen/d_y_setWifi_00"
+        android:layout_width="210px"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center"
+        android:text="zw2017060800"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        android:textSize="28px"
+        />
+    <!-- 01 -->
+    <Button
+        android:id="@+id/id_dialogBtn01"
+        android:layout_x="220px"
+        android:layout_y="@dimen/d_y_setWifi_01"
+        android:layout_width="210px"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center"
+        android:text="zw2017060801"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        android:textSize="28px"
+        />
+    <!-- 02 -->
+    <Button
+        android:id="@+id/id_dialogBtn02"
+        android:layout_x="2px"
+        android:layout_y="@dimen/d_y_setWifi_02"
+        android:layout_width="210px"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center"
+        android:text="zw2017000002"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        android:textSize="28px"
+        />
+    <Button
+        android:id="@+id/id_dialogBtn03"
+        android:layout_x="220px"
+        android:layout_y="@dimen/d_y_setWifi_03"
+        android:layout_width="210px"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center"
+        android:text="zw2017060803"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        android:textSize="28px"
+        />
+    <!-- 不设置 -->
+    <Button
+        android:id="@+id/id_dialogBtnNotSet"
+        android:layout_x="2px"
+        android:layout_y="588px"
+        android:layout_width="210px"
+        android:layout_height="@dimen/d_height_setWifi_dialogBtnOK"
+        android:gravity="center"
+        android:text="用系统wifi"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        android:textSize="28px"
+        />
+
+
+    <!--android:textColor="@drawable/map_dialogtext"-->
+</AbsoluteLayout>
+    <!--</LinearLayout>-->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 地图 sxg start -->
+    <dimen name="d_width_Joystick">400px</dimen>
+    <dimen name="d_height_Joystick">400px</dimen>
+
+    <dimen name="d_x_dialogEt">14px</dimen>
+    <dimen name="d_x_dialogNewName">14px</dimen>
+    <dimen name="d_x_dialogOldName">14px</dimen>
+    <dimen name="d_x_dialogBtnOK">8px</dimen>
+    <dimen name="d_x_dialogNotifyBtnOK">105px</dimen>
+    <dimen name="d_x_dialogBtnCancel">202px</dimen>
+    <dimen name="d_x_dialogBtnOK_modifyName">8px</dimen><!-- 8px -->
+    <dimen name="d_x_dialogBtnDelete_modifyName">202px</dimen>
+    <dimen name="d_x_dialogBtnCancel_modifyName">8px</dimen><!--  202px 396px -->
+
+    <!--<dimen name="d_y_dialogEt">30px</dimen>-->
+    <dimen name="d_y_dialogEt">18px</dimen>
+    <dimen name="d_y_dialogOldName">18px</dimen>
+    <dimen name="d_y_dialogNewName">84px</dimen>
+    <dimen name="d_y_dialogBtnOK">84px</dimen>
+    <dimen name="d_y_dialogBtnDelete_modifyName">150px</dimen>
+    <dimen name="d_y_dialogBtnOK_modifyName">150px</dimen><!-- 150px -->
+    <dimen name="d_y_dialogBtnCancel">84px</dimen>
+    <dimen name="d_y_dialogBtnCancel_modifyName">202px</dimen><!-- 150px 216px -->
+    <dimen name="d_y_setWifi_ssid">18px</dimen>
+    <dimen name="d_y_setWifi_pwd">132px</dimen>
+    <dimen name="d_y_setWifi_ok">246px</dimen>
+    <dimen name="d_y_setWifi_cancel">246px</dimen>
+    <dimen name="d_y_setWifi_00">360px</dimen>
+    <dimen name="d_y_setWifi_01">360px</dimen>
+    <dimen name="d_y_setWifi_02">474px</dimen>
+    <dimen name="d_y_setWifi_03">474px</dimen>
+
+    <dimen name="d_width_dialogRoot">400px</dimen>
+    <dimen name="d_width_dialogRoot_modifyName">400px</dimen><!-- 400px -->
+    <dimen name="d_width_dialogEt">372px</dimen>
+    <dimen name="d_width_dialogBtnDelete">190px</dimen>
+    <dimen name="d_width_dialogBtnOK">190px</dimen>
+    <dimen name="d_width_dialogBtnCancel">190px</dimen>
+    <dimen name="d_width_dialogBtnCancel_modifyName">384px</dimen><!-- 190px -->
+
+    <dimen name="d_height_dialogRoot">140px</dimen><!-- 120px -->
+    <dimen name="d_height_dialogRoot_modifyName">258px</dimen><!-- 120px 206px -->
+    <dimen name="d_height_dialogEt">48px</dimen>
+    <dimen name="d_height_dialogBtnDelete">48px</dimen><!-- 30px -->
+    <dimen name="d_height_dialogBtnOK">48px</dimen><!-- 30px -->
+    <dimen name="d_height_setWifi_dialogBtnOK">96px</dimen><!-- 30px -->
+    <dimen name="d_height_dialogBtnCancel">48px</dimen><!-- 30px -->
+    <dimen name="d_height_dialogBtnCancel_modifyName">48px</dimen><!-- 30px -->
+
+    <!--<dimen name="d_textSize_dialogEt">28px</dimen>-->
+    <dimen name="d_textSize_dialogEt">24px</dimen>
+    <!--<dimen name="d_textSize_dialogBtn">24px</dimen>-->
+    <dimen name="d_textSize_dialogBtn">22px</dimen><!-- 20px -->
+    <dimen name="d_marginLeft_et">14px</dimen>
+    <dimen name="d_marginTop_et">30px</dimen>
+    <dimen name="d_marginBottom_btn">6px</dimen>
+    <!-- 地图 sxg end -->
+</resources>

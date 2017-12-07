@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_rel"
+    tools:context="com.grasp.control.MainActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dip_30.0"
+        android:id="@+id/main_bian1_sz"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <FrameLayout
+            android:id="@+id/main_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bai">
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/dip_30.0"
+        android:id="@+id/main_bian1_sz2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/main_gl_frame"
+            android:layout_marginLeft="@dimen/dip_114.0"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <LinearLayout
+            android:background="@drawable/tabbar_personalcenter_popup"
+            android:orientation="vertical"
+            android:layout_width="@dimen/dip_114.0"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_80.0">
+                <TextView
+                    android:id="@+id/main_tx_name"
+                    android:textColor="@color/bai"
+                    android:text="Grasp"
+                    android:textSize="@dimen/dip_13.0"
+                    android:paddingLeft="@dimen/dip_45.0"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/kuang_tx"
+                    android:layout_marginLeft="@dimen/dip_12.5"
+                    android:layout_marginRight="@dimen/dip_12.5"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dip_25.0" />
+
+                <ImageView
+                    android:id="@+id/main_tx"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dip_12.5"
+                    android:background="@drawable/personalcenter_tabbar_portrait_selected"
+                    android:layout_width="@dimen/dip_40.0"
+                    android:layout_height="@dimen/dip_40.0" />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="@dimen/dip_5.0"
+                android:layout_marginRight="@dimen/dip_5.0"
+                android:background="@color/bai"
+                android:alpha="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="1px" />
+            <LinearLayout
+                android:id="@+id/main_gl1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_21.5">
+                <Button
+                    android:layout_marginLeft="@dimen/dip_18.0"
+                    android:background="@drawable/personalcenter_tabbar_binding_selected"
+                    android:layout_width="@dimen/dip_18.0"
+                    android:layout_height="@dimen/dip_18.0"
+                    android:layout_marginRight="@dimen/dip_11.0"
+                    />
+
+                <TextView
+                    android:id="@+id/main_gl_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_gl1"
+                    android:textColor="@color/bai"
+                    android:textSize="@dimen/dip_10.0" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="@dimen/dip_5.0"
+                android:layout_marginRight="@dimen/dip_5.0"
+                android:background="@color/bai"
+                android:alpha="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="1px" />
+
+            <LinearLayout
+                android:id="@+id/main_gl2"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_21.5">
+                <Button
+                    android:layout_marginLeft="@dimen/dip_18.0"
+                    android:background="@drawable/personalcenter_tabbar_setup_selected"
+                    android:layout_width="@dimen/dip_18.0"
+                    android:layout_height="@dimen/dip_18.0"
+                    android:layout_marginRight="@dimen/dip_11.0"
+                    />
+                <TextView
+                    android:id="@+id/main_gl_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dip_10.0"
+                    android:textColor="@color/bai"
+                    android:text="@string/main_gl2"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="@dimen/dip_5.0"
+                android:layout_marginRight="@dimen/dip_5.0"
+                android:background="@color/bai"
+                android:alpha="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="1px" />
+
+            <LinearLayout
+                android:id="@+id/main_gl3"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_21.5">
+                <Button
+                    android:layout_marginLeft="@dimen/dip_18.0"
+                    android:background="@drawable/personalcenter_tabbar_aboutus_selected"
+                    android:layout_width="@dimen/dip_18.0"
+                    android:layout_height="@dimen/dip_18.0"
+                    android:layout_marginRight="@dimen/dip_11.0"
+                    />
+                <TextView
+                    android:id="@+id/main_gl_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dip_10.0"
+                    android:textColor="@color/bai"
+                    android:text="@string/main_gl3"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="@dimen/dip_5.0"
+                android:layout_marginRight="@dimen/dip_5.0"
+                android:background="@color/bai"
+                android:alpha="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="1px" />
+
+            <LinearLayout
+                android:id="@+id/main_gl4"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_21.5">
+                <Button
+                    android:layout_marginLeft="@dimen/dip_18.0"
+                    android:background="@drawable/personalcenter_tabbar_edition_selected"
+                    android:layout_width="@dimen/dip_18.0"
+                    android:layout_height="@dimen/dip_18.0"
+                    android:layout_marginRight="@dimen/dip_11.0"
+                    />
+
+                <TextView
+                    android:id="@+id/main_gl_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_gl4"
+                    android:textColor="@color/bai"
+                    android:textSize="@dimen/dip_10.0"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="@dimen/dip_5.0"
+                android:layout_marginRight="@dimen/dip_5.0"
+                android:background="@color/bai"
+                android:alpha="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="1px" />
+
+            <LinearLayout
+                android:id="@+id/main_gl5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_21.5">
+                <Button
+                    android:layout_marginLeft="@dimen/dip_18.0"
+                    android:background="@drawable/personalcenter_tabbar_notice_selected"
+                    android:layout_width="@dimen/dip_18.0"
+                    android:layout_height="@dimen/dip_18.0"
+                    android:layout_marginRight="@dimen/dip_11.0"
+                    />
+                <TextView
+                    android:id="@+id/main_gl_tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dip_10.0"
+                    android:textColor="@color/bai"
+                    android:text="@string/main_gl5"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="@dimen/dip_5.0"
+                android:layout_marginRight="@dimen/dip_5.0"
+                android:background="@color/bai"
+                android:alpha="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="1px" />
+
+            <LinearLayout
+                android:id="@+id/main_gl6"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_21.5">
+                <Button
+                    android:layout_marginLeft="@dimen/dip_18.0"
+                    android:background="@drawable/personalcenter_tabbar_help_selected"
+                    android:layout_width="@dimen/dip_18.0"
+                    android:layout_height="@dimen/dip_18.0"
+                    android:layout_marginRight="@dimen/dip_11.0"
+                    />
+                <TextView
+                    android:id="@+id/main_gl_tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dip_10.0"
+                    android:textColor="@color/bai"
+                    android:text="@string/main_gl6"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="@dimen/dip_30.0"
+        android:layout_height="match_parent"
+        android:background="@color/bian"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/main_bian1"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0"
+            android:background="@drawable/button_1" />
+        <Button
+            android:layout_marginTop="@dimen/dip_25.0"
+            android:layout_marginBottom="@dimen/dip_2.5"
+            android:id="@+id/main_bian2"
+            android:background="@drawable/bian2"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0" />
+
+        <Button
+            android:id="@+id/main_bian3"
+            android:layout_marginBottom="@dimen/dip_2.5"
+            android:background="@drawable/bian3"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0" />
+        <Button
+            android:id="@+id/main_bian4"
+            android:layout_marginBottom="@dimen/dip_2.5"
+            android:background="@drawable/bian4"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0" />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/main_bian5"
+            android:layout_marginBottom="@dimen/dip_2.5"
+            android:background="@drawable/bian5"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0" />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/main_bian6"
+            android:layout_marginBottom="@dimen/dip_2.5"
+            android:background="@drawable/bian6"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0" />
+        <Button
+            android:id="@+id/main_bian7"
+            android:layout_marginBottom="@dimen/dip_2.5"
+            android:background="@drawable/bian7"
+            android:layout_width="@dimen/dip_30.0"
+            android:layout_height="@dimen/dip_30.0" />
+
+    </LinearLayout>
+</RelativeLayout>

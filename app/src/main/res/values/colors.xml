@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bian">#222222</color>
+    <color name="bai">#ffffff</color>
+
+    <color name="c_6c6c6c">#6c6c6c</color>
+    <color name="c_c6c6c6">#c6c6c6</color>
+    <color name="c_6b6b6b">#6b6b6b</color>
+    <color name="c_2b2b2b">#2b2b2b</color>
+    <color name="c_aaaaaa">#aaaaaa</color>
+    <color name="c_000000">#000000</color>
+    <color name="c_6a00e5">#6a00e5</color>
+    <color name="c_f0f0f0">#f0f0f0</color>
+    <color name="c_555555">#555555</color>
+    <color name="c_16d1ff">#16d1ff</color>
+    <color name="spots_dialog_color">#ff0099cc</color>
+    <color name="c_dfdfdf">#dfdfdf</color>
+
+    <color name="translucent_background">#00000000</color>
+    <drawable name="c3">#c6c6c6</drawable>
+    <drawable name="c2">#6a00e5</drawable>
+    <drawable name="c1">#16d1ff</drawable>
+    <!-- 地图 start *****************************************************************************-->
+
+    <color name="c_dialogBG">#383838</color>
+    <color name="c_dialogEtHintColor">#606060</color>
+    <color name="c_dialogEtTextColor">#ffffff</color>
+    <color name="c_dialogBtnNormal">#535353</color>
+    <color name="c_dialogBtnPressed">#ffffff</color>
+    <color name="c_dialogBtnPressedText">#ff5913</color>
+    <color name="c_dialogBtnNormalText">#ffffff</color>
+    <!-- 地图 end *****************************************************************************-->
+</resources>

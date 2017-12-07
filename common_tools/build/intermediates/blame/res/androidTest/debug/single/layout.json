@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zeroconf_master_item.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\bundles\\debug\\res\\layout\\zeroconf_master_item.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\zeroconf_master_list.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\bundles\\debug\\res\\layout\\zeroconf_master_list.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\default_dashboard.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\bundles\\debug\\res\\layout\\default_dashboard.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\master_chooser.xml",
+        "source": "D:\\work\\control\\11-28\\control\\android_10\\build\\intermediates\\bundles\\default\\res\\layout\\master_chooser.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\nfc_tag_scan.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\bundles\\debug\\res\\layout\\nfc_tag_scan.xml"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\main.xml",
+        "source": "D:\\work\\control\\11-28\\control\\common_tools\\build\\intermediates\\bundles\\debug\\res\\layout\\main.xml"
+    }
+]

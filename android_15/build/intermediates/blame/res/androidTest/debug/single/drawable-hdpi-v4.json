@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\rotate_left_icon.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\rotate_left_icon.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\pan_tilt_follower.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\pan_tilt_follower.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\horizon_original.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\horizon_original.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\grey_ring_notched.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\grey_ring_notched.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\top_angle_slice.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\top_angle_slice.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\small_pan_marker_3.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\small_pan_marker_3.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\zoom_bg.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\zoom_bg.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\intensity.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\intensity.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\black_background.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\black_background.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\zoom_out_normal.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\zoom_out_normal.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\previous_velocity.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\previous_velocity.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\pan_tilt_controller.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\pan_tilt_controller.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\mid_angle_slice.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\mid_angle_slice.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\center_widget.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\center_widget.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\pt_home_marker.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\pt_home_marker.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\large_pan_marker_3.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\large_pan_marker_3.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\large_d_widget_3.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\large_d_widget_3.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\small_d_widget_3.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\small_d_widget_3.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\zoom_bar_lit.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\zoom_bar_lit.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\large_tilt_marker_3.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\large_tilt_marker_3.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\rotate_right_icon.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\rotate_right_icon.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\directional_arrow.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\directional_arrow.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\pt_bg.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\pt_bg.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\small_tilt_marker_3.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\small_tilt_marker_3.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\zoom_bar_notlit.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\zoom_bar_notlit.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\zoom_in_pressed.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\zoom_in_pressed.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\background.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\background.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\zoom_in_normal.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\zoom_in_normal.png"
+    },
+    {
+        "merged": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\zoom_out_pressed.png",
+        "source": "D:\\work\\control\\11-28\\control\\android_15\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\zoom_out_pressed.png"
+    }
+]

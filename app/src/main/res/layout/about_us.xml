@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bai">
+
+
+    <ImageView
+        android:layout_width="@dimen/dip_75.0"
+        android:layout_height="@dimen/dip_75.0"
+        android:background="@drawable/grasp"
+        android:layout_marginTop="@dimen/dip_31.5"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <ImageView
+        android:layout_width="@dimen/dip_50.0"
+        android:layout_height="@dimen/dip_50.0"
+        android:background="@drawable/erweima"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dip_20.0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/c_000000"
+        android:text="@string/gzh"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dip_12.0"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/c_000000"
+        android:text="@string/gsm"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dip_119.5"
+        />
+</RelativeLayout>

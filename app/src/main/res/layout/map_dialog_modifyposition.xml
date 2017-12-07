@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:orientation="vertical"-->
+<!--android:id="@+id/id_dialogRootLayout"-->
+<!--android:layout_width="@dimen/d_width_dialogRoot"-->
+<!--android:layout_height="@dimen/d_height_dialogRoot"-->
+<!--android:background="@color/c_dialogBG">-->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/id_abLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/c_dialogBG">
+    <EditText
+        android:id="@+id/id_dialogOldName"
+        android:layout_x="@dimen/d_x_dialogOldName"
+        android:layout_y="@dimen/d_y_dialogOldName"
+        android:layout_width="@dimen/d_width_dialogEt"
+        android:layout_height="@dimen/d_height_dialogEt"
+        android:gravity="center_vertical"
+        android:hint="@string/s_hintOldFlagName"
+        android:textColorHint="@color/c_dialogEtHintColor"
+        android:textColor="@color/c_dialogEtTextColor"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:background="@null"
+        android:enabled="false"
+        />
+    <EditText
+        android:id="@+id/id_dialogNewName"
+        android:layout_x="@dimen/d_x_dialogNewName"
+        android:layout_y="@dimen/d_y_dialogNewName"
+        android:layout_width="@dimen/d_width_dialogEt"
+        android:layout_height="@dimen/d_height_dialogEt"
+        android:gravity="center_vertical"
+        android:hint="@string/s_hintNewFlagName"
+        android:textColorHint="@color/c_dialogEtHintColor"
+        android:textColor="@color/c_dialogEtTextColor"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:background="@null"
+        />
+
+    <Button
+        android:id="@+id/id_dialogBtnOK_modifyName"
+        android:layout_x="@dimen/d_x_dialogBtnOK_modifyName"
+        android:layout_y="@dimen/d_y_dialogBtnOK_modifyName"
+        android:layout_width="@dimen/d_width_dialogBtnOK"
+        android:layout_height="@dimen/d_height_dialogBtnOK"
+        android:gravity="center"
+        android:text="@string/s_customNameModify"
+        android:textSize="@dimen/d_textSize_dialogBtn"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        />
+    <!-- 删除标记 -->
+    <Button
+        android:id="@+id/id_dialogBtnDelete_modifyName"
+        android:layout_x="@dimen/d_x_dialogBtnDelete_modifyName"
+        android:layout_y="@dimen/d_y_dialogBtnDelete_modifyName"
+        android:layout_width="@dimen/d_width_dialogBtnDelete"
+        android:layout_height="@dimen/d_height_dialogBtnDelete"
+        android:gravity="center"
+        android:text="@string/s_customNameDelete"
+        android:textSize="@dimen/d_textSize_dialogBtn"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        />
+    <Button
+        android:id="@+id/id_dialogBtnCancel_modifyName"
+        android:layout_x="@dimen/d_x_dialogBtnCancel_modifyName"
+        android:layout_y="@dimen/d_y_dialogBtnCancel_modifyName"
+        android:layout_width="@dimen/d_width_dialogBtnCancel_modifyName"
+        android:layout_height="@dimen/d_height_dialogBtnCancel_modifyName"
+        android:gravity="center"
+        android:text="@string/s_customNameCancel"
+        android:textSize="@dimen/d_textSize_dialogBtn"
+        android:background="@drawable/map_dialogbtn"
+        android:textColor="@drawable/map_dialogtext"
+        />
+    <!--android:textColor="@drawable/map_dialogtext"-->
+</AbsoluteLayout>
+    <!--</LinearLayout>-->

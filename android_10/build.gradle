@@ -1,0 +1,103 @@
+/*
+ * Copyright (C) 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+dependencies {
+    //  compile 'org.ros.rosjava_core:rosjava:[0.2,0.3)'
+    //  compile 'org.ros.rosjava_messages:diagnostic_msgs:[1.11,1.12)'
+    //  compile 'org.ros.rosjava_messages:sensor_msgs:[1.11,1.12)'
+    compile 'org.ros.rosjava_core:rosjava:0.3.5'
+    compile 'org.ros.rosjava_messages:diagnostic_msgs:1.12.5'
+    compile 'org.ros.rosjava_messages:sensor_msgs:1.12.5'
+    compile 'com.android.support:support-v4:13.0.0'
+}
+
+buildscript {
+//  apply from: project.file("buildscript.gradle")
+
+  repositories {
+    jcenter()
+  }
+  dependencies {
+//      classpath 'com.android.tools.build:gradle:2.3.2'
+//    classpath 'com.android.tools.build:gradle:1.5.0'
+
+    // NOTE: Do not place your application dependencies here; they belong
+  }
+
+//  repositories {
+//    mavenCentral()
+//    jcenter() // 原来没有
+//  }
+//  dependencies {
+//    classpath 'com.android.tools.build:gradle:1.0.+'
+//  }
+}
+apply plugin: "com.android.library"
+
+android {
+//    compileSdkVersion 13
+//    buildToolsVersion '25.0.0'
+    compileSdkVersion 25
+    buildToolsVersion '26.0.1'
+    defaultConfig {
+        minSdkVersion 16 // 13
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    configurations {
+//        all*.exclude group: 'org.apache.httpcomponents'
+//        all*.exclude group: 'org.apache.commons'
+        all*.exclude group: 'org.apache.commons', module: 'commons-logging'
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+    }
+}
+// remocon start
+
+// remocon end
+
+
+//tasks.getByName("assemble"){
+//  it.doLast{
+//    println "$project.name: After assemble, jar libs are copied to local repository"
+//    copyOutput(true)
+//  }
+//}
+
+//subprojects{
+//  println "Configuration for $project.name"
+//  buildscript {
+//    repositories{
+//      jcenter()
+//    }
+//
+//    dependencies{
+//      classpath 'com.android.tools.build:gradle:1.+'
+//    }
+
+//    apply from: rootProject.getRootDir().getAbsolutePath() + "/utils.gradle"
+//  }
+//}
+
+//clean.dependsOn 'cposCleanTask'
+//task cposCleanTask() << {
+//  cleanOutput(true)
+//}

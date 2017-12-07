@@ -1,0 +1,94 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    apply from: project.file("buildscript.gradle")
+    repositories {
+        jcenter()
+    }
+    dependencies {
+//        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+        classpath "org.ros.rosjava_bootstrap:gradle_plugins:[0.2,0.3)"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// remocon start
+apply plugin: 'catkin'
+
+subprojects {
+
+    // ?????????????ros???????????project????????????
+    if(project.name != "android_10" &&
+            project.name != "android_15" &&
+            project.name != "common_tools" &&
+            project.name != "app"){
+//        println "????????ros??????project.name = " + project.name
+        /*
+        ????????ros??????project.name = easeui
+        ????????ros??????project.name = mypicker
+        ????????ros??????project.name = redpacketlibrary
+         */
+        return;
+    }
+    /*
+     * The android plugin configures a few things:
+     *
+     *  - local deployment repository : where it dumps the jars and packaged artifacts)
+     *  - local maven repositories    : where it finds your locally installed/built artifacts)
+     *  - external maven repositories : where it goes looking if it can't find dependencies locally
+     *  - android build tools version : which version we use across the board
+     *
+     * To modify, or add repos to the default external maven repositories list, pull request against this code:
+     *
+     *   https://github.com/rosjava/rosjava_bootstrap/blob/indigo/gradle_plugins/src/main/groovy/org/ros/gradle_plugins/RosPlugin.groovy#L31
+     *
+     * To modify the build tools version, pull request against this code:
+     *
+     *   https://github.com/rosjava/rosjava_bootstrap/blob/indigo/gradle_plugins/src/main/groovy/org/ros/gradle_plugins/RosAndroid.groovy#L14
+     */
+    apply plugin: 'ros-android'
+//    println "subprojects - project.name = " + project.name
+    /*
+    subprojects - project.name = android_10
+    subprojects - project.name = android_15
+    subprojects - project.name = app
+    subprojects - project.name = common_tools
+     */
+
+    afterEvaluate { project ->
+        android {
+            // Exclude a few files that are duplicated across our dependencies and
+            // prevent packaging Android applications.
+            packagingOptions {
+                exclude "META-INF/LICENSE.txt"
+                exclude "META-INF/NOTICE.txt"
+            }
+        }
+
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion 25
+                buildToolsVersion '25.0.0'
+                print "根目录下改了buildtoolsversion版本号, moduleName=$project.name" //根目录下改了buildtoolsversion版本号, moduleName=android_10根目录下改了buildtoolsversion版本号, moduleName=android_15根目录下改了buildtoolsversion版本号, moduleName=app:android_10
+            }
+        }
+
+    }
+}
+
+defaultTasks 'assembleRelease', 'uploadArchives'
+// remocon end

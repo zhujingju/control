@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--&lt;!&ndash; 自定义位置名称时，对话框按钮的按下事件，文字颜色变化 &ndash;&gt;-->
+    <!--<item android:state_pressed="true" android:drawable="@drawable/c_dialogBtnPressedText" />-->
+    <!--<item android:drawable="@drawable/c_dialogBtnNormalText" />-->
+<!--</selector>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:color="@color/c_dialogBtnPressedText"/>
+    <item android:state_checkable="true" android:color="@color/c_dialogBtnPressedText"/>
+    <item android:state_pressed="true" android:color="@color/c_dialogBtnPressedText"/>
+    <item android:color="@color/c_dialogBtnNormalText"/>
+</selector>

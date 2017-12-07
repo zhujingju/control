@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_margin="@dimen/dip_1.5"
+        android:id="@+id/item_h_add"
+        android:background="@drawable/toolbar_monitormode_point_new"
+        android:layout_width="@dimen/dip_50.0"
+        android:layout_height="@dimen/dip_40.0" />
+</LinearLayout>
